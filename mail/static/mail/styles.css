@@ -1,3 +1,29 @@
 textarea {
     min-height: 400px;
 }
+
+.email {
+    display: flex;
+    padding: 3px;
+    border: 1px solid grey;
+    border-radius: 3px;
+    margin-bottom: 5px;
+}
+
+.email:hover {
+    box-shadow: 0 0 3px grey;
+}
+
+.emailSender {
+    font-weight: bold;
+    flex: 1;
+}
+
+.emailSubject {
+    flex: 3;
+}
+
+.emailTimestamp {
+    flex: 1;
+    text-align: right;
+}
